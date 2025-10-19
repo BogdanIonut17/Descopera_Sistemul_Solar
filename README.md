@@ -1,29 +1,29 @@
 # 🌠 Descoperă Sistemul Solar
 
 Site informativ ce cuprinde o prezentare a principalelor corpuri din Sistemului Solar, cu imagini și detalii despre Soare, planete și sateliți.
-Proiectul este realizat folosind **HTML** și **CSS**, cu elemente interactive în **JavaScript**.  
+Proiectul este realizat folosind `HTML` și `CSS`, cu elemente interactive în `JavaScript`.  
 
 ---
 
 ## 🪐 Funcționalități
 - Prezentare interactivă a planetelor cu descrieri și imagini;  
 - Animație care simulează un cer înstelat;
-- Interfață modernă, responsive, realizată în CSS;
+- Interfață modernă, responsive, realizată în `CSS`;
 - Sesiuni login + logout folosind conturi prestabilite, memorate în `localStorage`;
-- Cereri AJAX cu preluare date din fișier JSON.
+- Cereri `AJAX` cu preluare date din fișier `JSON`.
 
 ---
 
-## Conturi
+### Conturi
 - Nume utilizator: Bogdan
 - Parolă: Bogdan_17
-
+---
 - Nume utilizator: Andrei
 - Parolă: Andrei_29
-     
+---     
 - Nume utilizator: Alex
 - Parolă: Alex_14
-
+---
 - Nume utilizator: Ionut
 - Parolă: Ionut_05
 
@@ -43,7 +43,7 @@ Proiectul este realizat folosind **HTML** și **CSS**, cu elemente interactive �
 Poți vizita versiunea statică a proiectului (fără AJAX) aici:
 👉 **[Descoperă Sistemul Solar](https://bogdanionut17.github.io/Descopera_Sistemul_Solar/pagini/index.html)**
 
-> ⚠️ Imaginile cu sateliții nu vor apărea pe GitHub Pages, deoarece AJAX necesită rularea fișierului JSON printr-un server local (nu se poate accesa direct din sistemul de fișiere sau din GitHub Pages).
+> ⚠️ Imaginile cu sateliții nu vor apărea pe GitHub Pages, deoarece `AJAX` necesită rularea fișierului `JSON` printr-un server local (nu se poate accesa direct din sistemul de fișiere sau din GitHub Pages).
 
 ---
 
@@ -58,15 +58,16 @@ Pasul 1️⃣: Clonează repository-ul
    ```
 
 Pasul 2️⃣: Pornește un server local Pornește un server local cu **Python 3**:
-     ```bash
-     python -m http.server 8000
+   ```bash
+   python -m http.server 8000
+   ```
      
 Pasul 3️⃣: Accesează site-ul în browser
-    **[Descoperă Sistemul Solar](http://localhost:8000/pagini/index.html))**
-    Galeria de imagini și cererile AJAX vor funcționa corect, preluând datele din fișierele JSON, și se vor afișa imaginile cu sateliții planetei alese din listă.
+👉   **[Descoperă Sistemul Solar](http://localhost:8000/pagini/index.html)**
+- Galeria de imagini și cererile AJAX vor funcționa corect, preluând datele din fișierele `JSON`, și se vor afișa imaginile cu sateliții planetei alese din listă.
     
 ## 📘 Exemplu de fișier JSON
-Datele pentru fiecare planetă sunt stocate într-un fișier JSON separat, care conține lista sateliților săi.
+Datele pentru fiecare planetă sunt stocate într-un fișier `JSON` separat, care conține lista sateliților săi.
 Fiecare element include:
 
 src – calea relativă către imaginea satelitului
@@ -75,7 +76,7 @@ nume – denumirea satelitului
 
 Exemplu: jupiter.json
 
-``
+```json
 [
     {
         "src": "../imagini/io.jpg",
@@ -94,4 +95,4 @@ Exemplu: jupiter.json
         "nume": "Callisto"
     }
 ]
-``
+```
