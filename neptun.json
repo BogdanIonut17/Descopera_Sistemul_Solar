@@ -1,0 +1,14 @@
+[
+    {
+        "src": "../imagini/triton.jpg",
+        "nume": "Triton"
+    },
+    {
+        "src": "../imagini/proteus.jpg",
+        "nume": "Proteus"
+    },
+    {
+        "src": "../imagini/nereid.jpg",
+        "nume": "Nereid"
+    }
+]

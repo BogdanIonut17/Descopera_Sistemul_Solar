@@ -1,0 +1,22 @@
+[
+    {
+        "src": "../imagini/charon.jpg",
+        "nume": "Charon"
+    },
+    {
+        "src": "../imagini/nix.jpg",
+        "nume": "Nix"
+    },
+    {
+        "src": "../imagini/hydra.jpg",
+        "nume": "Hydra"
+    },
+    {
+        "src": "../imagini/kerberos.jpg",
+        "nume": "Kerberos"
+    },
+    {
+        "src": "../imagini/styx.jpg",
+        "nume": "Styx"
+    }
+]

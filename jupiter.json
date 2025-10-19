@@ -1,0 +1,18 @@
+[
+    {
+        "src": "../imagini/io.jpg",
+        "nume": "Io"
+    },
+    {
+        "src": "../imagini/europa.jpg",
+        "nume": "Europa"
+    },
+    {
+        "src": "../imagini/ganymede.jpg",
+        "nume": "Ganymede"
+    },
+    {
+        "src": "../imagini/callisto.jpg",
+        "nume": "Callisto"
+    }
+]

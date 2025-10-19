@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descoperă Sistemul Solar</title>
+    <link rel="stylesheet" type="text/css" href="../stiluri/sistemulsolar.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="../stiluri/sistemulsolar_mic.css" media="(max-width: 600px)">
+    <link rel="icon" type="image/png" href="../imagini/Solar_system.png">
+    <script src="../sistemulsolar.js"></script>
+</head>
+
+<body>
+    <header id="inceput">
+        <h1>Sistemul Solar</h1>
+        <p id="primul">Haideți să descoperim împreună informații interesante despre Sistemul Solar!</p>
+        <canvas id="canvas" height="250"></canvas>
+        <button id="btn">Click pentru a vedea un cer înstelat</button>
+    </header>
+    <nav>
+        <ul class="meniu">
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="soare.html">Soare</a></li>
+            <li><a href="#">Planete</a>
+                <ul class="submeniu">
+                    <li><a href="mercur.html">Mercur</a></li>
+                    <li><a href="venus.html">Venus</a></li>
+                    <li><a href="terra.html">Terra</a></li>
+                    <li><a href="marte.html">Marte</a></li>
+                    <li><a href="jupiter.html">Jupiter</a></li>
+                    <li><a href="saturn.html">Saturn</a></li>
+                    <li><a href="uranus.html">Uranus</a></li>
+                    <li><a href="neptun.html">Neptun</a></li>
+                    <li><a href="pluto.html">Pluto şi alte planete pitice</a></li>
+                </ul>
+            </li>
+            <li><a href="galeriefoto.html">Galerie de imagini</a></li>
+            <li><a href="cont.html">Intră în cont</a></li>
+        </ul>
+    </nav>
+    <main>
+        <select id="planete">
+            <option selected disabled>Alege o planetă pentru a-i vedea principalii sateliți</option>
+            <option value="marte">Marte</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptun">Neptun</option>
+            <option value="pluto">Pluto</option>
+        </select>
+        <div id="container-sateliti">
+        </div>
+        <div id="container-foto">
+            <figure>
+                <img src="../imagini/sistemulsolar.png" alt="Sistemul Solar">
+                <figcaption>Sistemul Solar</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/soare.jpg" alt="Soarele">
+                <figcaption>Soarele</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/mercur.jpg" alt="Mercur">
+                <figcaption>Planeta Mercur</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/venus.jpg" alt="Venus">
+                <figcaption>Planeta Venus</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/terra.jpg" alt="Terra">
+                <figcaption>Terra (Planeta Pământ)</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/luna.jpg" alt="Luna">
+                <figcaption>Luna</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/marte.jpg" alt="Marte">
+                <figcaption>Planeta Marte</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/jupiter.jpg" alt="Jupiter">
+                <figcaption>Planeta Jupiter</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/saturn.jpg" alt="Saturn">
+                <figcaption>Planeta Saturn</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/uranus.jpg" alt="Uranus">
+                <figcaption>Planeta Uranus</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/neptun.jpg" alt="Neptun">
+                <figcaption>Planeta Neptun</figcaption>
+            </figure>
+            <figure>
+                <img src="../imagini/planetepitice.jpg" alt="Pluto și alte planete pitice">
+                <figcaption>Pluto și alte planete pitice</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <a href="#inceput">Înapoi la început</a>
+    </footer>
+</body>
+
+</html>

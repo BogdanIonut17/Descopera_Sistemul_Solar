@@ -1,0 +1,22 @@
+[
+    {
+        "src": "../imagini/miranda.jpg",
+        "nume": "Miranda"
+    },
+    {
+        "src": "../imagini/ariel.jpg",
+        "nume": "Ariel"
+    },
+    {
+        "src": "../imagini/umbriel.jpg",
+        "nume": "Umbriel"
+    },
+    {
+        "src": "../imagini/titania.jpg",
+        "nume": "Titania"
+    },
+    {
+        "src": "../imagini/oberon.jpg",
+        "nume": "Oberon"
+    }
+]

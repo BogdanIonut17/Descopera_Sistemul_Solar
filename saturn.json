@@ -1,0 +1,18 @@
+[
+    {
+        "src": "../imagini/titan.jpg",
+        "nume": "Titan"
+    },
+    {
+        "src": "../imagini/rhea.jpg",
+        "nume": "Rhea"
+    },
+    {
+        "src": "../imagini/enceladus.jpg",
+        "nume": "Enceladus"
+    },
+    {
+        "src": "../imagini/iapetus.jpg",
+        "nume": "Iapetus"
+    }
+]

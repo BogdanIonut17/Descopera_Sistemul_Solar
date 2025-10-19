@@ -1,0 +1,405 @@
+body {
+  background-image: url(../imagini/spatiu.jpg);
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid blue;
+}
+
+header>h1 {
+  color: blue;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header>h1::after {
+  content: "🌌";
+}
+
+header>h1::before {
+  content: "🪐";
+}
+
+#primul {
+  font-style: italic;
+  font-size: 1.5em;
+  color: red;
+  animation: aparitie 2s ease-in-out forwards;
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+h2 {
+  color: darkorange;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+h3 {
+  color: red;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+p {
+  color: yellow;
+  font-size: 1.2em;
+  line-height: 120%;
+  margin-left: 50px;
+  font-family: Calibri;
+  text-align: left;
+}
+
+nav {
+  background-image: url("../imagini/spatiu3.jpg");
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Arial;
+}
+
+nav ul,
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav>ul.meniu>li>ul.submeniu {
+  display: none;
+}
+
+nav>ul.meniu>li:hover>ul.submeniu {
+  display: block;
+}
+
+ul.meniu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+ul.meniu>li {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid navy;
+  flex: 1 250px;
+}
+
+ul.submeniu>li {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: black;
+
+}
+
+ul.submeniu a {
+  display: block;
+  transition: background-color 3s, color 2s, font-size 1.5s;
+}
+
+ul.submeniu a:hover {
+  color: indigo;
+  font-size: 20px;
+}
+
+ul.submeniu>li:nth-of-type(1)>a:hover {
+  background-color: darkgrey;
+}
+
+ul.submeniu>li:nth-of-type(2)>a:hover {
+  background-color: goldenrod;
+}
+
+ul.submeniu>li:nth-of-type(3)>a:hover {
+  background-color: rgb(10, 20, 116);
+}
+
+ul.submeniu>li:nth-of-type(4)>a:hover {
+  background-color: darkred;
+}
+
+ul.submeniu>li:nth-of-type(5)>a:hover {
+  background-color: darkorange;
+}
+
+ul.submeniu>li:nth-of-type(6)>a:hover {
+  background-color: gold;
+}
+
+ul.submeniu>li:nth-of-type(7)>a:hover {
+  background-color: rgb(46, 132, 206);
+}
+
+ul.submeniu>li:nth-of-type(8)>a:hover {
+  background-color: cornflowerblue;
+}
+
+ul.submeniu>li:nth-of-type(9)>a:hover {
+  background-color: grey;
+}
+
+.selectat {
+  background-color: green;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#planete {
+  margin: 15px;
+  list-style-type: decimal;
+}
+
+#planete>li {
+  line-height: 150%;
+  color: goldenrod;
+  font-weight: bold;
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.2em;
+  width: 10%;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+section {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+section>p {
+  color: yellow;
+  font-size: 1.2em;
+  line-height: 120%;
+  text-indent: 50px;
+  font-family: Calibri;
+  text-align: justify;
+}
+
+article {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+article>h2 {
+  color: red;
+  text-align: justify;
+  text-indent: 50px;
+  font-style: italic;
+}
+
+article>p {
+  color: yellow;
+  font-size: 1.2em;
+  line-height: 120%;
+  text-indent: 50px;
+  font-family: Calibri;
+  text-align: justify;
+}
+
+#welcome {
+  color: yellow;
+  font-size: 1.5em;
+  line-height: 120%;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: Calibri;
+  text-align: left;
+}
+
+#planete-pref {
+  color: limegreen;
+  font-size: 1.5em;
+  line-height: 120%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  text-align: left;
+}
+
+span {
+  color: red;
+  font-size: 1.2em;
+  line-height: 120%;
+  margin-top: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-family: Calibri;
+}
+
+form>label {
+  color: yellow;
+  font-size: 1.2em;
+  line-height: 120%;
+  margin-left: 50px;
+  font-family: Calibri;
+  text-align: left;
+}
+
+input {
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+button {
+  display: inline-block;
+  font-size: 1.2em;
+  font-style: oblique;
+  margin-top: 5px;
+  margin-left: 50px;
+  background-color: darkblue;
+  color: gold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#logout {
+  display: none;
+}
+
+figure {
+  text-align: center;
+  margin: 40px;
+}
+
+figure>figcaption {
+  color: yellow;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+main figure>img {
+  width: 22%;
+  border: solid white;
+  border-radius: 10px;
+}
+
+#container-foto,
+#container-sateliti {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
+}
+
+#container-foto img {
+  width: 100%;
+  border: solid white;
+  border-radius: 10px;
+}
+
+#container-sateliti img {
+  width: 80%;
+  border: solid white;
+  border-radius: 10px;
+}
+
+select {
+  margin: 50px;
+  height: 30px;
+  width: 25%;
+  font-size: 1em;
+  font-weight: bold;
+  color: yellow;
+  background-color: orangered;
+  text-indent: 5px;
+}
+
+aside {
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 550px;
+  box-shadow: 10px 10px 5px 12px yellowgreen inset;
+  border-radius: 15px;
+}
+
+ol {
+  margin: 10px;
+  list-style-position: inside;
+}
+
+ol>li {
+  font-size: 1.1em;
+  line-height: 120%;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer {
+  background-image: url(../imagini/spatiu2.jpg);
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid blue;
+}
+
+footer>a {
+  color: blue;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  border: solid indigo;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+footer>a:hover {
+  font-size: 20px;
+}
+
+@keyframes aparitie {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(25px);
+    color: yellow;
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    text-decoration: underline;
+  }
+}
