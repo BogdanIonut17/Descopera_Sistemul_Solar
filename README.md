@@ -56,10 +56,11 @@ Pasul 1️⃣: Clonează repository-ul
    git clone https://github.com/bogdanionut17/Descopera_Sistemul_Solar.git
    cd Descopera_Sistemul_Solar
    ```
+
 Pasul 2️⃣: Pornește un server local Pornește un server local cu **Python 3**:
      ```bash
      python -m http.server 8000
-     ```
+     
 Pasul 3️⃣: Accesează site-ul în browser
     **[Descoperă Sistemul Solar](http://localhost:8000/pagini/index.html))**
     Galeria de imagini și cererile AJAX vor funcționa corect, preluând datele din fișierele JSON, și se vor afișa imaginile cu sateliții planetei alese din listă.
@@ -74,7 +75,8 @@ nume – denumirea satelitului
 
 Exemplu: jupiter.json
 
-`[
+``
+[
     {
         "src": "../imagini/io.jpg",
         "nume": "Io"
@@ -91,4 +93,5 @@ Exemplu: jupiter.json
         "src": "../imagini/callisto.jpg",
         "nume": "Callisto"
     }
-]`
+]
+``
